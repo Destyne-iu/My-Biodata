@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    padding: 15px 30px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f39c12 !important;
+  }
+  
+  /* Home Section */
+  .home {
+    height: 100vh;
+    background: linear-gradient(135deg, #3498db, #e74c3c), url('background.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .home p {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .home .btn-warning {
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px
+  
